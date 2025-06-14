@@ -1,0 +1,78 @@
+{
+  "name": "WarrantyAI - Smart Warranty Management",
+  "short_name": "WarrantyAI",
+  "description": "Never miss a warranty again. Smart AI assistant to track, manage, and remind users of all warranties, expiring services, and coverage.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00d4ff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["productivity", "utilities", "business"],
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/HunterHo07/Portfolio_1/refs/heads/main/images/logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/HunterHo07/Portfolio_1/refs/heads/main/images/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "WarrantyAI Homepage"
+    },
+    {
+      "src": "/screenshots/mobile-demo.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "WarrantyAI Demo"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Upload Receipt",
+      "short_name": "Upload",
+      "description": "Quickly upload a receipt for AI scanning",
+      "url": "/demo?action=upload",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/HunterHo07/Portfolio_1/refs/heads/main/images/logo.webp",
+          "sizes": "96x96",
+          "type": "image/webp"
+        }
+      ]
+    },
+    {
+      "name": "View Warranties",
+      "short_name": "Warranties",
+      "description": "View all your tracked warranties",
+      "url": "/demo",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/HunterHo07/Portfolio_1/refs/heads/main/images/logo.webp",
+          "sizes": "96x96",
+          "type": "image/webp"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://warrantyai.com/manifest.json"
+    }
+  ],
+  "prefer_related_applications": false
+}
